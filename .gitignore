@@ -75,9 +75,10 @@ docs/_build/
 .env
 .ruff_cache
 
-Cargo.lock
-poetry.lock
-uv.lock
+# Do not remove locks they're good
+#Cargo.lock
+#poetry.lock
+#uv.lock
 
 # Do not exclude the 'env' python module 
 !python/lle/env
